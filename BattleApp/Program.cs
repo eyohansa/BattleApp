@@ -9,24 +9,21 @@ namespace BattleApp
             var unitA = new Unit
             {
                 Name = "A",
-                Health = 10,
-                Damage = 3
+                Health = 12,
+                MinDamage = 3,
+                MaxDamage = 4
             };
 
             var unitB = new Unit
             {
                 Name = "B",
-                Health = 11,
-                Damage = 2
+                Health = 13,
+                MinDamage = 2,
+                MaxDamage = 5,
             };
 
             var game = new Game(unitA, unitB);
-            while(!game.CheckForWin())
-            {
-                game.DoRound();
-            }
-
-            Console.WriteLine($"{game.GetWinner()?.Name} has won on round {game.Round}");
+            game.Run();
             Console.ReadLine();
         }
     }
