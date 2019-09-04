@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleApp", "BattleApp\BattleApp.csproj", "{695603D3-5DF9-4421-BE35-6F76D6048343}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{695603D3-5DF9-4421-BE35-6F76D6048343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695603D3-5DF9-4421-BE35-6F76D6048343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695603D3-5DF9-4421-BE35-6F76D6048343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695603D3-5DF9-4421-BE35-6F76D6048343}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF9FFFE1-49EA-43CA-BB3F-428F4F7775FE}
+	EndGlobalSection
+EndGlobal
